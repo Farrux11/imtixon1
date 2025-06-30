@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Zoopark</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1><span class="welcome">Xush kelibsiz,</span> <span class="highlight">Virtual Zooparkga!</span></h1>
+
+  <p>Bu yerda siz turli <b><i>hayvonlarni</i></b> haqida qiziqarli ma'lumotlar topishingiz mumkin.</p>
+
+  <h2>Bizning hayvonlar</h2>
+  <ul>
+    <li><b>Arslonlar</b> – o‘rmon qirollari</li>
+    <li><b>Fillar</b> – yer yuzidagi eng katta quruqlik hayvonlari</li>
+  </ul>
+
+  <h3 class="section-title">Hayvonlar haqida qiziqarli faktlar</h3>
+
+  <div class="images">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqeadYCzPkO9fmHuTpn809LONXlNlbgdSw&s" alt="Arslonlar daraxtda">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStk-vAhMtIwf-wmb7tEIu3cbY9nosmSkbvpg&s" alt="Arslon dam olayapti">
+  </div>
+
+  <h3 class="section-title">Hayvonlarni ko‘rish</h3>
+
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VrE3gsR_lis" 
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <form>
+    <h3>O‘z fikringizni yozib qoldiring</h3>
+    <textarea rows="3" cols="50" placeholder="Izoh yozing..."></textarea>
+
+    <h3>Sevimli hayvoningiz qaysi</h3>
+    <label><input type="radio" name="animal" value="arslon"> Arslon</label><br>
+    <label><input type="radio" name="animal" value="fil"> Fil</label><br><br>
+
+    <button type="submit">Jo'natish</button>
+  </form>
+
+  <h3 class="section-title">Hayvonlar haqida to‘liq ma’lumotlar jadvali</h3>
+  <table>
+    <tr>
+      <th>Hayvon</th>
+      <th>Qiziqarli fakt</th>
+    </tr>
+    <tr>
+      <td class="arslon">Arslon</td>
+      <td>Arslonlar kunning 20 soatini uxlash bilan o‘tkazishadi</td>
+    </tr>
+    <tr>
+      <td class="fil">Fil</td>
+      <td>Fillar suvni o‘tlari bilan emas, bjuurni bilan ichishadi</td>
+    </tr>
+  </table>
+
+</body>
+</html>
